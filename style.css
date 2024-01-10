@@ -1,0 +1,36 @@
+#gradient
+{
+    min-height: 100vh;
+    width:100%;
+    border:1px solid black;
+    font-size:30px;
+    background: rgb(1, 51, 64);
+    background: radial-gradient(circle, rgb(0, 73, 81) 0%, rgb(0, 58, 67) 100%), rgb(2, 80, 99);
+    background-size: 200% 200%; 
+
+    -webkit-animation: Animation 10s ease infinite;
+    -moz-animation: Animation 10s ease infinite;
+    animation: Animation 10s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:1.0}
+    50%{background-position:91% 100%}
+    100%{background-position:0.0}
+}
+@-moz-keyframes Animation {
+    0%{background-position:1.0}
+    50%{background-position:91% 100%}
+    100%{background-position:0.0}
+}
+@keyframes Animation { 
+    0%{background-position:1.0}
+    50%{background-position:91% 100%}
+    100%{background-position:0.0}
+}
+form label {
+  color: white;
+}
+h1{
+    color: white;
+}
